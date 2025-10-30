@@ -40,12 +40,22 @@ pip install --upgrade pip setuptools wheel
 pip install "pandas<2.3" numpy matplotlib scikit-learn ipython
 ```
 
-### GPG Setup for Signed Commits (Optional)
+### GPG Key Setup for Signed Commits (Optional)
 ```bash
+# configure GPG key at local
 gpg --full-generate-key
 gpg --list-sectet-keys --keyid-format=long
+
 git config --global user.signingkey <keyid>
 git config --global commit.gpgsign true
+```
+
+```bash
+# configure GPG public key at remote
+gpg --list-sectet-keys --keyid-format=long
+gpg --armor --export <key_id>
+
+# add the above exported key in Github
 ```
 
 ### Git Operations
