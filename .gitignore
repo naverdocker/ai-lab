@@ -1,5 +1,7 @@
 .venv
 
+session.vim
+
 __pycache__/
 *.pyc
 
