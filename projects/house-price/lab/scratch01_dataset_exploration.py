@@ -82,12 +82,14 @@ if __name__ == "__main__":
 
 #    debug_vars()
 
+
     # DAY 3 - 03Nov25
 #    print(f"\n------\n------\ndf.cloumns:\n\n{df.columns}")
 #    print(f"\n------\n------\ndf.dtypes:\n\n{df.dtypes}")
 #    print(f"\n------\n------\ndf.info():\n"); df.info()
 #    print(f"\n------\n------\ndf.describe(include='all'):\n\n", df.describe(include='all'))
 #    print(f"\n------\n------\ndf.head():\n\n{df.head(25)}")
+
 
     # DAY 4 - 04Nov25
 #    fn = "df.columns.tolist()"; print(f"\n{fn}:\n", eval(fn))
@@ -113,14 +115,9 @@ if __name__ == "__main__":
     ## pausing dataset exploation here to take a quick refresher crash course on numpy and pandas
 
     #df.plot.scatter(x="Longitude", y="Latitude", c=TARGET_COL, cmap="viridis", s=10)
-#    fn = "df.plot()"; print(f"\n{fn}:\n", eval(fn))
 
-    import plotext as plt
-    x = [1, 2, 3, 4, 5]
-    y = [1, 4, 9, 16, 25]
-    plt.plot(x, y)
-    plt.title("Simple terminal plot")
-    plt.show()
+    # DAY 5 - 05Nov25
+    # continuing in new scratch.py
 
 
     print(">>")
