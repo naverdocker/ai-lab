@@ -12,3 +12,4 @@ data/
 *.log
 
 learn/
+plots/
